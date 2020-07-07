@@ -1,0 +1,14 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\Application.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\bin\Debug\COMbyTCP.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\bin\Debug\COMbyTCP.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\bin\Debug\COMbyTCP.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.Form.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.AboutBox.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.TCPSettings.resources
+D:\Documenti\Projects\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.xml
+D:\Documenti\Projects\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.pdb
