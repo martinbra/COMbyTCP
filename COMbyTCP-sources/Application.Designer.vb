@@ -372,7 +372,7 @@ Partial Class Form
         Me.ConsolePB.Name = "ConsolePB"
         Me.ConsolePB.Size = New System.Drawing.Size(132, 26)
         Me.ConsolePB.TabIndex = 33
-        Me.ConsolePB.Text = "Console >>"
+        Me.ConsolePB.Text = "Console <<"
         Me.ConsolePB.UseVisualStyleBackColor = True
         '
         'Form

@@ -12,3 +12,15 @@ C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.TCPSettings.resources
 D:\Documenti\Projects\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.xml
 D:\Documenti\Projects\Visual Studio 2008\Projects\COMbyTCP\TCPServer\obj\Debug\COMbyTCP.pdb
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\obj\Debug\COMbyTCP.AboutBox.resources
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\obj\Debug\COMbyTCP.Form.resources
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\obj\Debug\COMbyTCP.Resources.resources
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\obj\Debug\COMbyTCP.TCPSettings.resources
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\obj\Debug\Application.vbproj.GenerateResource.Cache
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\obj\Debug\COMbyTCP.xml
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\obj\Debug\COMbyTCP.pdb
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\bin\Debug\COMbyTCP.exe
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\bin\Debug\COMbyTCP.pdb
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\bin\Debug\COMbyTCP.xml
+C:\Users\martin.meier\Desktop\COMbtTCP-sources\obj\Debug\COMbyTCP.exe
