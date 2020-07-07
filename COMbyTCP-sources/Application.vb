@@ -20,7 +20,7 @@ Public Class Form
     Private lastConsoleMsgTime As Date
     Private m_AppConfig As AppSettings
 
-    Private m_fConsole As Boolean = False
+    Private m_fConsole As Boolean = True
 
 
     Const WINDOW_HEIGHT_BIG = 750
@@ -55,7 +55,7 @@ Public Class Form
 
 
 
-        Me.Height = WINDOW_HEIGHT_SMALL
+        Me.Height = WINDOW_HEIGHT_BIG
         Me.Width = 500
 
 
@@ -175,14 +175,20 @@ Public Class Form
     Private Sub SaveCurrentConfiguration()
         m_AppConfig.SaveSetting("IPAddress", Me.ServerIPAddr.Text)
         m_AppConfig.SaveSetting("Port", Me.ServerPort.Text)
+        
+        m_AppConfig.SaveSetting("COMPort", Me.PortNameCB.Text)
+        m_AppConfig.SaveSetting("BaudRate", Me.BaudRateTB.Text)
+        m_AppConfig.SaveSetting("Parity", Me.ParityCB.Text)
+        m_AppConfig.SaveSetting("DataBits", Me.DataBitsTB.Text)        
+        m_AppConfig.SaveSetting("StopBits", Me.StopBitsCB.Text)
+        m_AppConfig.SaveSetting("Handshake", Me.HandshakeCB.Text)   
+                
     End Sub
 
     Private Sub LoadConfiguration()
         Dim strTmp As String
 
         strTmp = m_AppConfig.GetSetting("IPAddress")
-
-
         If strTmp Is Nothing Then
             strTmp = "127.0.0.1"
         End If
@@ -193,7 +199,36 @@ Public Class Form
             strTmp = "8000"
         End If
         Me.ServerPort.Text = strTmp
-
+        
+        strTmp = m_AppConfig.GetSetting("COMPort")
+        If strTmp IsNot Nothing Then
+            Me.PortNameCB.Text = strTmp
+        End If
+        
+        strTmp = m_AppConfig.GetSetting("BaudRate")
+        If strTmp IsNot Nothing Then
+            Me.BaudRateTB.Text = strTmp
+        End If
+        
+        strTmp = m_AppConfig.GetSetting("Parity")
+        If strTmp IsNot Nothing Then
+            Me.ParityCB.Text = strTmp
+        End If
+        
+        strTmp = m_AppConfig.GetSetting("DataBits")
+        If strTmp IsNot Nothing Then
+            Me.DataBitsTB.Text = strTmp
+        End If
+        
+        strTmp = m_AppConfig.GetSetting("StopBits")
+        If strTmp IsNot Nothing Then
+            Me.StopBitsCB.Text = strTmp
+        End If
+        
+        strTmp = m_AppConfig.GetSetting("Handshake")
+        If strTmp IsNot Nothing Then
+            Me.HandshakeCB.Text = strTmp
+        End If
 
     End Sub
 
