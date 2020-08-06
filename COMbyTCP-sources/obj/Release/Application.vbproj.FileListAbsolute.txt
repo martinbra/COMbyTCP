@@ -10,3 +10,4 @@ C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Rele
 C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.exe
 C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.xml
 C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.pdb
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\Application.vbprojAssemblyReference.cache
