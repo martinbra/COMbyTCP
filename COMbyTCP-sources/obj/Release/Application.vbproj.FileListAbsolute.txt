@@ -1,0 +1,12 @@
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\bin\Release\COMbyTCP.exe
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\bin\Release\COMbyTCP.pdb
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\bin\Release\COMbyTCP.xml
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.AboutBox.resources
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.Form.resources
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.Resources.resources
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.TCPSettings.resources
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\Application.vbproj.GenerateResource.cache
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\Application.vbproj.CoreCompileInputs.cache
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.exe
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.xml
+C:\Users\martin.meier\Desktop\combytcp_folder\COMbyTCP\COMbyTCP-sources\obj\Release\COMbyTCP.pdb

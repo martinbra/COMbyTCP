@@ -22,40 +22,43 @@ Partial Class Form
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form))
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox
-        Me.RXDataTB = New System.Windows.Forms.TextBox
-        Me.Label10 = New System.Windows.Forms.Label
-        Me.Label9 = New System.Windows.Forms.Label
-        Me.TXDataTB = New System.Windows.Forms.TextBox
-        Me.Server = New System.Windows.Forms.Button
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Client = New System.Windows.Forms.Button
-        Me.ServerPort = New System.Windows.Forms.TextBox
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.ServerIPAddr = New System.Windows.Forms.TextBox
-        Me.Consolle = New System.Windows.Forms.TextBox
-        Me.PortNameCB = New System.Windows.Forms.ComboBox
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.Label5 = New System.Windows.Forms.Label
-        Me.ParityCB = New System.Windows.Forms.ComboBox
-        Me.Label6 = New System.Windows.Forms.Label
-        Me.StopBitsCB = New System.Windows.Forms.ComboBox
-        Me.Label7 = New System.Windows.Forms.Label
-        Me.Label8 = New System.Windows.Forms.Label
-        Me.HandshakeCB = New System.Windows.Forms.ComboBox
-        Me.BaudRateTB = New System.Windows.Forms.TextBox
-        Me.DataBitsTB = New System.Windows.Forms.TextBox
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox
-        Me.GetCOMPB = New System.Windows.Forms.Button
-        Me.MainMenu = New System.Windows.Forms.MenuStrip
-        Me.InfoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem
-        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.MainMenu_Info = New System.Windows.Forms.ToolStripMenuItem
-        Me.ConsolePB = New System.Windows.Forms.Button
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.RXDataTB = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TXDataTB = New System.Windows.Forms.TextBox()
+        Me.Server = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Client = New System.Windows.Forms.Button()
+        Me.ServerPort = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ServerIPAddr = New System.Windows.Forms.TextBox()
+        Me.Consolle = New System.Windows.Forms.TextBox()
+        Me.PortNameCB = New System.Windows.Forms.ComboBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.ParityCB = New System.Windows.Forms.ComboBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.StopBitsCB = New System.Windows.Forms.ComboBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.HandshakeCB = New System.Windows.Forms.ComboBox()
+        Me.BaudRateTB = New System.Windows.Forms.TextBox()
+        Me.DataBitsTB = New System.Windows.Forms.TextBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.GetCOMPB = New System.Windows.Forms.Button()
+        Me.MainMenu = New System.Windows.Forms.MenuStrip()
+        Me.InfoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MainMenu_Info = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsolePB = New System.Windows.Forms.Button()
+        Me.minToTray = New System.Windows.Forms.Button()
+        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.MainMenu.SuspendLayout()
@@ -338,32 +341,32 @@ Partial Class Form
         '
         Me.InfoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem, Me.ExitToolStripMenuItem1})
         Me.InfoToolStripMenuItem.Name = "InfoToolStripMenuItem"
-        Me.InfoToolStripMenuItem.Size = New System.Drawing.Size(35, 20)
+        Me.InfoToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.InfoToolStripMenuItem.Text = "&File"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.ExitToolStripMenuItem.Text = "TCP &Settings..."
         '
         'ExitToolStripMenuItem1
         '
         Me.ExitToolStripMenuItem1.Name = "ExitToolStripMenuItem1"
-        Me.ExitToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.ExitToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
         Me.ExitToolStripMenuItem1.Text = "&Exit"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MainMenu_Info})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(40, 20)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
         Me.HelpToolStripMenuItem.Text = "&Help"
         '
         'MainMenu_Info
         '
         Me.MainMenu_Info.Name = "MainMenu_Info"
-        Me.MainMenu_Info.Size = New System.Drawing.Size(117, 22)
+        Me.MainMenu_Info.Size = New System.Drawing.Size(104, 22)
         Me.MainMenu_Info.Text = "&Info..."
         '
         'ConsolePB
@@ -375,10 +378,25 @@ Partial Class Form
         Me.ConsolePB.Text = "Console <<"
         Me.ConsolePB.UseVisualStyleBackColor = True
         '
+        'minToTray
+        '
+        Me.minToTray.Location = New System.Drawing.Point(387, 277)
+        Me.minToTray.Name = "minToTray"
+        Me.minToTray.Size = New System.Drawing.Size(97, 26)
+        Me.minToTray.TabIndex = 34
+        Me.minToTray.Text = "Minimize to Tray"
+        Me.minToTray.UseVisualStyleBackColor = True
+        '
+        'NotifyIcon1
+        '
+        Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
+        Me.NotifyIcon1.Text = "COM by TCP"
+        '
         'Form
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.ClientSize = New System.Drawing.Size(494, 720)
+        Me.Controls.Add(Me.minToTray)
         Me.Controls.Add(Me.ConsolePB)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Consolle)
@@ -435,5 +453,6 @@ Partial Class Form
     Friend WithEvents ConsolePB As System.Windows.Forms.Button
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MainMenu_Info As System.Windows.Forms.ToolStripMenuItem
-
+    Friend WithEvents minToTray As Button
+    Friend WithEvents NotifyIcon1 As NotifyIcon
 End Class

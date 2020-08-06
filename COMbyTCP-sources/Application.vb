@@ -484,5 +484,14 @@ Public Class Form
 
     End Sub
 
-  
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles minToTray.Click
+        Me.Hide()
+        Me.NotifyIcon1.Visible = True
+    End Sub
+
+    Private Sub NotifyIcon1_MouseDoubleClick(sender As Object, e As MouseEventArgs) Handles NotifyIcon1.MouseDoubleClick, NotifyIcon1.MouseClick
+        Me.Show()
+        Me.NotifyIcon1.Visible = False
+    End Sub
 End Class
+
